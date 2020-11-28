@@ -21,7 +21,7 @@ final_price = []
   i = 0
   for i in 0..0
      best_price.each { |item, price|
-        final_price<< "#{item}"
+        final_price<< item
      }
     end
     puts final_price[0]
