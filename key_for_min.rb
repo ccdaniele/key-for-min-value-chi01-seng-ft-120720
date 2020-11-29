@@ -24,5 +24,5 @@ final_price = []
         final_price<< item
      }
     end
-    puts final_price[0]
+    return final_price[0]
   end
